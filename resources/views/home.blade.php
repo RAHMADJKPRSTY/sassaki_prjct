@@ -1,21 +1,47 @@
-<!DOCTYPE html>
-<html>
-<title>W3</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="w3-container w3-teal">
-  <h1>My Profil</h1>
-</div>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
 
-<div class="w3-container">
-  <p> Saya Rahmad Jaka Prasetyo yogyakarta </p>
-</div>
+    <title>Profil</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="#">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/home">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="/dashboard">Dashboard</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
 
-<div class="w3-container w3-teal">
-  <p>--------------------------</p>
-</div>
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            
+            <h1> Hallo Dear</h1>
 
-</body>
-</html> 
+            <p> Senang bertemu dengan anda</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

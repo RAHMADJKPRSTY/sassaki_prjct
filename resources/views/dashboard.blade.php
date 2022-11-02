@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
-          <a class="navbar-brand" href="#">Rahmad Jaka Prasetyo</a>
+          <a class="navbar-brand" href="#">DASHBOARD</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,9 +36,20 @@
     <div class="container-fluid banner">
         <div class="container text-center">
             <h1>Selamat Datang </h1>
-            <a href="" class="btn btn-success text-white">Gas</a>
+            {{-- <img src="image/banner.jpeg" alt=""> --}}
+            <br>
+            <br>
+            <a href="" class="btn btn-success text-white">Welcome Dear</a>
         </div>
     </div>
+
+    {{-- <div class="container-fluid banner">
+      <div class="container text-center">
+          <h1>Selamat Datang di TechStack</h1>
+          <p class="pt-3 pb-3">Solusi tepat untuk memperluas dan mengembangkan bisnis anda</p>
+          <a href="" class="btn btn-success text-white">Contact Us</a>
+      </div>
+  </div> --}}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
